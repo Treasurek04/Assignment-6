@@ -78,7 +78,7 @@ public class GameManager : Singleton<GameManager>
 
     public void UnPause()
     {
-        Time.timeScale = 0f;
+        Time.timeScale = 1f;
         pauseMenu.SetActive(false);
     }
 
